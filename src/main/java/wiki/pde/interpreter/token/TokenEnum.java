@@ -1,0 +1,5 @@
+package wiki.pde.interpreter.token;
+
+public enum TokenEnum {
+    ASSIGN, SEMICOLON, LPAREN, RPAREN, COMMA, PLUS, LBRACE, RBRACE, EOF, ILLEGAL, FUNCTION, LET, IDENT, INT, RETURN, EQ, NOT_EQ, MINUS, SLASH, ASTERISK, LT, GT, IF, ELSE
+}
